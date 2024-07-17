@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(182, 179, 179, 0.13);
+    background-image: url(257242-nature-landscape-island-aerial_view-mountain-Kauai-beach-sea-clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'poppins',sans-serif;
+    position: relative;
+    background-attachment: fixed;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li{
+    list-style-type: none;
+    float: left;
+    padding:20px 40px;
+    font-weight: bold;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.21);
+    backdrop-filter: blur(50px);
+    transition: background-color 0.5s;
+}
+.navbar li:hover{
+    background-color:rgba(53, 115, 186, 0.728) ;
+}
+i{
+    padding-left: 10px;
+}
+#logo{
+    padding-right: 20px;
+}
+h2{
+    display: flex;
+    flex-direction: left;
+    font-size: 5em;
+    max-width: 500px;
+    height: 500px;
+    font-family: monospace,sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgba(141, 138, 138, 0.263);
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+#box{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 150px;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.158);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin-top: 120px;
+    padding: 20px 20px;
+}
+#h1{
+    color: rgb(63, 62, 62);
+    padding-bottom: 20px;
+    text-shadow: 2px 2px grey;
+}
+.input-fields{
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+#button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+#para{
+    color: rgb(255, 255, 255);
+}
+footer{
+    height: 500px;
+    background-color: white;
+}
+#images img{
+    height: 200px;
+    width: 300px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 10px;
+}
+img:hover{
+    border: 7px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+#explore-div{
+    text-align: center;
+}
+#explore{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: orange;
+    color: white;
+    transition: border 0.2s;
+}
+#explore:hover{
+    border: 3px solid orange;
+}
